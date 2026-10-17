@@ -1,0 +1,114 @@
+{
+  "fetched_utc": "2026-10-17T09:47:04Z",
+  "upstream": "https://github.com/vercel/next.js/tree/43ff46d2b4d57295078aa1e96d8d1f22fcbcbaad/examples/with-zustand",
+  "ref": "43ff46d2b4d57295078aa1e96d8d1f22fcbcbaad",
+  "files": [
+    {
+      "path": "examples/with-zustand/.gitignore",
+      "blob": "fd3dbb571a12a1c3baf000db049e141c888d05a8",
+      "sha256": "f37e7e1b90353a16ba7bec8979585311ee6d00311209391e5ab47162df4ca922"
+    },
+    {
+      "path": "examples/with-zustand/README.md",
+      "blob": "c6d0cb31be2d9843559603d32a393c9e97b4016e",
+      "sha256": "f9618391c39a0d315642125340248e3af9ae04babf3a66eb23b7abcd92897dce"
+    },
+    {
+      "path": "examples/with-zustand/next-env.d.ts",
+      "blob": "a4a7b3f5cfa2f97534b4aa6588e12bd0b5df180b",
+      "sha256": "daeb16c108ebc4ae4551a4e71cf50ab66430b0908d8637d9e3f08122ca030ba0"
+    },
+    {
+      "path": "examples/with-zustand/package.json",
+      "blob": "6d4f2fb999e5c880693e6b46fb17cd43cf98e5c0",
+      "sha256": "03402c17984602da801725ec3979fdeefae17f3928b4c8fc3650c01a83d8fbfd"
+    },
+    {
+      "path": "examples/with-zustand/public/favicon.ico",
+      "blob": "718d6fea4835ec2d246af9800eddb7ffb276240c",
+      "sha256": "2b8ad2d33455a8f736fc3a8ebf8f0bdea8848ad4c0db48a2833bd0f9cd775932"
+    },
+    {
+      "path": "examples/with-zustand/public/next.svg",
+      "blob": "5174b28c565c285e3e312ec5178be64fbeca8398",
+      "sha256": "55995dfad6ecb4945a1e856ddca03c5e16aa5bf13fd21b4df6a74ae79357bcfc"
+    },
+    {
+      "path": "examples/with-zustand/public/thirteen.svg",
+      "blob": "8977c1bd123cbe4a9f7b32c63594921688275cdd",
+      "sha256": "6a70cf328586a2b3e98f6f7f5ab88ae84732d4d4f0040d3ccc6b3a3ea0f1eab0"
+    },
+    {
+      "path": "examples/with-zustand/public/vercel.svg",
+      "blob": "d2f84222734f27b623d1c80dda3561b04d1284af",
+      "sha256": "3fa5cd757b418e18afc68ddebad55f443206e410327921ddb2bf1be731658880"
+    },
+    {
+      "path": "examples/with-zustand/src/app/layout.tsx",
+      "blob": "7f6b628ce4836d33cd78a1b44e7b08e1a6c95bdf",
+      "sha256": "45bf031a265ff0e1569fabfe50632786058c1c82f9841b9414b1175019ca3035"
+    },
+    {
+      "path": "examples/with-zustand/src/app/page.tsx",
+      "blob": "33f13a781c3e2d0bbbb598208939a0f9eb0fa931",
+      "sha256": "b88e4cd7c07453a132c7a69e98ddf6dc15a7b9d4cf3522be386f4653db73f772"
+    },
+    {
+      "path": "examples/with-zustand/src/components/clock.css",
+      "blob": "a44f5bced0a4a8eb5d859a03f17f145097378390",
+      "sha256": "f2eb88f915a8f5f74ae8e1f34cb1cbe4182e82dfbc1321dd00742ff027b29d9e"
+    },
+    {
+      "path": "examples/with-zustand/src/components/clock.tsx",
+      "blob": "6c73dcc0627e2a2af850220a3172f32b90610fac",
+      "sha256": "58e12ad4445a1a6ca8fad6f998d98287083d7df7205032cd697f5ee543779937"
+    },
+    {
+      "path": "examples/with-zustand/src/components/counter.tsx",
+      "blob": "850aaa03b9d987ff49a9c5a4932b089328d17bfd",
+      "sha256": "55f349efbe97e87cf64e4397b68b332486b0704eac10e14cc372e7af8c89627d"
+    },
+    {
+      "path": "examples/with-zustand/src/lib/StoreProvider.tsx",
+      "blob": "40a12b59f929b1d985c99f7b526c83c4a4421f7d",
+      "sha256": "a39dca796559a60fa3831870deddcd5abfdd14dee41832926c7858f91b5db6b9"
+    },
+    {
+      "path": "examples/with-zustand/src/lib/store.ts",
+      "blob": "3070e89b83938d1a7fd89e5449698635ad0b576a",
+      "sha256": "32119785e992b023a613bfcd31a13525ebc35ad8d3cf15e3df4d36576e0d7c80"
+    },
+    {
+      "path": "examples/with-zustand/src/lib/useInterval.ts",
+      "blob": "79bdebf89c5500f34245ca61a80469fbc8e0d1ee",
+      "sha256": "756436fbab669df7c5565c17013c6ddbcec6d6f1528f13a99288a123389ca1b9"
+    },
+    {
+      "path": "examples/with-zustand/tsconfig.json",
+      "blob": "961030f3a52c83d9561bb0491079842b9d9c572b",
+      "sha256": "28f4159f75e540f39195ef926218bdbad36f45414e42104518da9864ed113442"
+    }
+  ],
+  "changes": [
+    "Pinned next/react/react-dom in package.json; all application source files unchanged."
+  ],
+  "original_package": {
+    "private": true,
+    "scripts": {
+      "dev": "next dev",
+      "build": "next build",
+      "start": "next start",
+      "lint": "next lint"
+    },
+    "dependencies": {
+      "@types/node": "18.14.6",
+      "@types/react": "18.2.8",
+      "@types/react-dom": "18.0.11",
+      "next": "14.2.31",
+      "react": "18.3.1",
+      "react-dom": "18.3.1",
+      "typescript": "4.9.5",
+      "zustand": "^4.3.6"
+    }
+  }
+}
